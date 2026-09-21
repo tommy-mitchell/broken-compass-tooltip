@@ -1,0 +1,3 @@
+classTweaker  v1  official
+
+inject-interface  net/minecraft/world/item/component/LodestoneTracker  net/minecraft/world/item/component/TooltipProvider

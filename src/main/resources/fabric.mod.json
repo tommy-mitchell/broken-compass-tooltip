@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "${mod_id}",
+	"version": "${version}",
+	"name": "Broken Compass Tooltip",
+	"description": "Server-side broken lodestone compass tooltips.",
+	"authors": ["masterfulmonkey"],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/broken-compass-tooltip",
+		"sources": "https://github.com/tommy-mitchell/broken-compass-tooltip",
+		"issues": "https://github.com/tommy-mitchell/broken-compass-tooltip/issues"
+	},
+	"license": "MIT",
+	"icon": "assets/broken-compass-tooltip/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["brokencompasstooltip.BrokenCompassTooltip"]
+	},
+	"mixins": ["broken-compass-tooltip.mixins.json"],
+	"accessWidener": "${mod_id}.classtweaker",
+	"depends": {
+		"fabricloader": ">=${loader_version}",
+		"minecraft": "~${minecraft_version}",
+		"java": ">=25",
+		"fabric-api": "${fabric_api_version}"
+	}
+}
