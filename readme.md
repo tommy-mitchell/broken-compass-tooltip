@@ -1,6 +1,6 @@
 # Broken Compass Tooltip
 
-A Fabric Minecraft mod that adds server-side tooltips for broken lodestone compasses:
+A Fabric Minecraft mod that adds client-side tooltips for broken lodestone compasses:
 
 ![A Minecraft screenshot of an inventory. A lodestone compass is hovered. Its tooltip says "Broken."](.github/assets/screenshot.png)
 
