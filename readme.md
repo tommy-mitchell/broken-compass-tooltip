@@ -10,8 +10,8 @@ This allows you to differentiate between broken compasses and ones pointing to o
 
 ## Dependencies
 
-- [Fabric 0.19.5](https://fabricmc.net/use)
-- [Fabric API 0.161.0+26.2](https://modrinth.com/mod/fabric-api/version/0.161.0+26.2)
+- [Fabric Loader](https://fabricmc.net)
+- [Fabric API](https://modrinth.com/mod/fabric-api)
 
 ## Installation
 
